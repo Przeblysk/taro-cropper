@@ -1,6 +1,6 @@
 {
   "name": "taro-cropper-v3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Taro框架下的图片裁剪组件封装，开箱即用",
   "homepage": "https://github.com/Przeblysk/taro-cropper",
