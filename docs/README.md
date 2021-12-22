@@ -14,7 +14,7 @@ TaroCropper 是Taro小程序框架下使用的图片裁剪，基于canvasAPI进�
 - **首先用npm安装**
 
   ```bash
-  npm install --save taro-cropper
+  npm install --save taro-cropper-v3
   ```
 
 - **引入组件库**
@@ -22,14 +22,14 @@ TaroCropper 是Taro小程序框架下使用的图片裁剪，基于canvasAPI进�
   ```typescript
   import {
     TaroCropper
-  } from 'taro-cropper';
+  } from 'taro-cropper-v3';
   ```
 
 - 在项目配置文件 `config/index.js` 中添加如下配置
 
   ```javascript
   h5: {
-      esnextModules: ['taro-cropper']
+      esnextModules: ['taro-cropper-v3']
   }
   ```
 
