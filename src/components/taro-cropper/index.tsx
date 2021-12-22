@@ -545,12 +545,12 @@ class TaroCropperComponent extends PureComponent<TaroCropperComponentProps, Taro
 
     if (!hideFinishText) {
       const finishStyle: CSSProperties = {
-        position: 'absolute',
+        position: 'fixed',
         display: 'inline-block',
         color: themeColor,
         textAlign: "right",
         fontSize: Taro.pxTransform(32, 750),
-        bottom: Taro.pxTransform(30, 750),
+        top: Taro.pxTransform(30, 750),
         right: Taro.pxTransform(30, 750),
       };
       const onFinishClick = () => {
@@ -581,12 +581,12 @@ class TaroCropperComponent extends PureComponent<TaroCropperComponentProps, Taro
 
     if (!hideCancelText) {
       const cancelStyle: CSSProperties = {
-        position: 'absolute',
+        position: 'fixed',
         display: 'inline-block',
         color: themeColor,
         textAlign: "left",
         fontSize: Taro.pxTransform(32, 750),
-        bottom: Taro.pxTransform(30, 750),
+        top: Taro.pxTransform(30, 750),
         left: Taro.pxTransform(30, 750),
       };
       cancel = <CoverView

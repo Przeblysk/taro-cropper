@@ -5,3 +5,4 @@ lib/
 types/
 .DS_Store
 README.md
+yarn.lock
