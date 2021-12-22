@@ -1,4 +1,4 @@
-import Taro, {CanvasContext, getImageInfo, getSystemInfoSync} from '@tarojs/taro';
+import Taro, {CanvasContext} from '@tarojs/taro';
 import React, {PureComponent, CSSProperties} from 'react';
 import {BaseEventOrig, Canvas, CoverView, View} from '@tarojs/components';
 import {easySetFillStyle, easySetLineWidth, easySetStrokeStyle} from "./canvas-util";
@@ -59,7 +59,8 @@ class TaroCropperComponent extends PureComponent<TaroCropperComponentProps, Taro
     },
   };
 
-  systemInfo: getSystemInfoSync.Result;
+  // eslint-disable-next-line react/sort-comp
+  systemInfo: Taro.getSystemInfoSync.Result;
 
   constructor(props) {
     super(props);
@@ -85,7 +86,7 @@ class TaroCropperComponent extends PureComponent<TaroCropperComponentProps, Taro
   height: number = 0;
   cropperWidth: number = 0;
   cropperHeight: number = 0;
-  imageInfo: getImageInfo.SuccessCallbackResult;
+  imageInfo: Taro.getImageInfo.SuccessCallbackResult;
   realImageWidth: number = 0;
   realImageHeight: number = 0;
   scaleImageWidth: number = 0;
@@ -113,7 +114,7 @@ class TaroCropperComponent extends PureComponent<TaroCropperComponentProps, Taro
     return Taro.getImageInfo({
       src: src
     })
-      .then((res: getImageInfo.SuccessCallbackResult) => {
+      .then((res: Taro.getImageInfo.SuccessCallbackResult) => {
         this.imageInfo = res;
         const imageWidth = res.width;
         const imageHeight = res.height;
