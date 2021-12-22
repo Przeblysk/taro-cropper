@@ -1,7 +1,6 @@
-[![](https://img.shields.io/npm/v/taro-cropper.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
-[![](https://img.shields.io/npm/l/taro-cropper.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
-[![](https://img.shields.io/npm/dt/taro-cropper.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
-
+[![](https://img.shields.io/npm/v/taro-cropper-v3.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
+[![](https://img.shields.io/npm/l/taro-cropper-v3.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
+[![](https://img.shields.io/npm/dt/taro-cropper-v3.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper-v3)
 > # taro-cropper
 >
 > 项目地址: [https://github.com/Przeblysk/taro-cropper](https://github.com/Przeblysk/taro-cropper)
